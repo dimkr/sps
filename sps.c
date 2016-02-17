@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	}
 
 	do {
-		out = read(STDIN_FILENO, (void *)buf, sizeof(buf));
+		out = read(STDIN_FILENO, buf, sizeof(buf));
 		if (out < 0 || write(STDOUT_FILENO, &c[i * 2], 2) != 2)
 			return EXIT_FAILURE;
 

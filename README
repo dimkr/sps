@@ -1,0 +1,20 @@
+ ___ _ __  ___
+/ __| '_ \/ __|
+\__ \ |_) \__ \
+|___/ .__/|___/
+    |_|
+
+Overview
+========
+
+sps (which stands for "sps spins") is a simple command-line utility which
+reads from standard input and shows an ASCII art spinner.
+
+Credits and Legal Information
+=============================
+
+sps is free and unencumbered software released under the terms of the MIT
+license; see COPYING for the license text. For a list of its authors and
+contributors, see AUTHORS.
+
+The ASCII art logo at the top was made using FIGlet (http://www.figlet.org/).
